@@ -1,0 +1,70 @@
+.Disclaimer{
+    color:darkblue;
+    position: relative;
+    
+}
+.h1:hover{
+    background-color: aquamarine;
+  
+}
+h1{
+    cursor: pointer;
+    
+}
+
+
+.Main-Photo img{
+    width: 300px;
+    height: 300px;
+    cursor: crosshair;
+    position: relative;
+    border-radius: 50%;
+    transition: all 1.8s ease-in-out 0s;
+    
+}
+.Main-Photo img:hover{
+    cursor:crosshair;
+    transform: rotate(360deg);
+    transition: all 1.8s ease-in-out 0s;
+}
+.h2{
+        
+var beepOne = $("#beep-one")[0];
+$("#nav-one a")
+	.mouseenter(function() {
+		beepOne.play();
+	});
+    
+}
+.Education{
+    font-size: 20px;
+    padding: 10px;
+    cursor:alias
+}
+.Education:hover{
+    background-color: skyblue;
+     
+}
+h2{
+    font-size: 20px;
+    font-family: fantasy
+}
+@font-face{
+    font-family: kaushan;
+    src: url(fonts/KaushanScript-Regular.otf)
+}
+.button{
+    border:solid 1 px lightblue;
+    background-color: aquamarine;
+    
+    display:inline-block;
+    padding: 100 px;
+    font-size: 20 px;
+    font-family: fantasy;
+    cursor:pointer;
+    
+}
+
+.button:hover{
+    background-color: bisque;
+}
